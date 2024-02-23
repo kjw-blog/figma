@@ -1,10 +1,9 @@
-import { CollaborativeApp } from './CollaborativeApp';
 import { Room } from './Room';
 
 export default function Home() {
   return (
     <Room>
-      <CollaborativeApp />
+      <h1 className="text-xl">Liveblocks Figma Clone</h1>
     </Room>
   );
 }
