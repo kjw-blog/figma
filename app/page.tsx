@@ -1,9 +1,5 @@
 import { Room } from './Room';
 
 export default function Home() {
-  return (
-    <Room>
-      <h1 className="text-xl">Liveblocks Figma Clone</h1>
-    </Room>
-  );
+  return <h1 className="text-5xl text-white">Liveblocks Figma Clone</h1>;
 }
