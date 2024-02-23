@@ -1,5 +1,10 @@
-import Image from 'next/image';
+import { CollaborativeApp } from './CollaborativeApp';
+import { Room } from './Room';
 
 export default function Home() {
-  return <></>;
+  return (
+    <Room>
+      <CollaborativeApp />
+    </Room>
+  );
 }
